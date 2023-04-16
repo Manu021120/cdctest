@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    width: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/**********HEADER************/
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: #ffffff;
+}
+.logo-container img {
+    width: 50%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding: 1.3rem ;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+/**********HAMBURGER-MENU************/
+
+.menu-btn {
+    font-size: 4rem;
+    width: 50%;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #000000;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.overlay a {
+    padding: 8px;
+    color: #818181;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.overlay a:hover {
+    color: #ffffff;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    font-size: 6rem;
+}
+.closebtn {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/**********FINE-HAMBURGER-MENU************/
+

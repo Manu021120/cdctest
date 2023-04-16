@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media only screen and (min-width: 991px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #gallery-items-1, 
+    #gallery-items-2, 
+    #gallery-items-3, 
+    #gallery-items-4, 
+    #gallery-items-5 {
+        margin: 5rem;
+    }
+
+    /****GALLERY****/
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery .item {
+        width: 100%;
+        margin: 1rem 0; 
+    }
+
+    /*******GUIDE*******/
+
+    .guide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide .item {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    #gallery-items-1, 
+    #gallery-items-2, 
+    #gallery-items-3, 
+    #gallery-items-4, 
+    #gallery-items-5 {
+        margin: 3.5rem;
+    }
+
+    /*******GALLERY*******/
+
+    .gallery {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gallery .item {
+        width: 31%;
+    }
+   
+    /*******GUIDE*******/
+
+   .guide {
+        display: flex;
+        justify-content: space-between;
+   }
+   .guide .item {
+        width: 16%;
+   }    
+   .guide .item p {
+    font-size: 1.4rem;
+   }
+
+   /*******FOOTER*******/
+
+  
+
+
+
+
+}
